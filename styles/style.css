@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    border-radius: 20px;
+    margin: 50px 110px;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.container a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+}
+
+.container img {
+    width: 620px;
+    height: 645px;
+    padding-left: 30px;
+}
+
+/*------------------
+ Cover page article
+ ------------------ */
+.cover-page {
+    width: 531px;
+    height: 424px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 106px;
+    margin-bottom: 111px;
+
+}
+
+.cover-page p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
