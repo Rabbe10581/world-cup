@@ -30,6 +30,11 @@ header {
     padding: 16px 25px;
 }
 
+.container a .fa-light {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .container img {
     width: 620px;
     height: 645px;

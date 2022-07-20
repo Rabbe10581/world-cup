@@ -30,6 +30,11 @@ header {
     padding: 16px 25px;
 }
 
+.container a .fa-light {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .container img {
     width: 650px;
     height: 646px;
@@ -155,8 +160,8 @@ main {
 footer {
     color: #FFFFFF;
     background-color: black;
-    height: 444px;
     padding-top: 130px;
+    padding-bottom: 30px;
 }
 
 footer h2 {
