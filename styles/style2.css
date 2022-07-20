@@ -236,6 +236,11 @@ footer h2 {
         padding: 10px;
     }
 
+    main .menu {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
     main .main-body {
         display: flex;
         margin: 0;
