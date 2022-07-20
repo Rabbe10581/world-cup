@@ -71,14 +71,48 @@ body {
 }
 
 .menu p a {
+    background-color: white;
     text-decoration: none;
-    background-color: #FFFFFF;
     padding: 17px 30px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 400px;
     color: black;
 }
+
+#upcoming-btn {
+    background-color: #DD0000;
+}
+
+/* #upcoming-btn {
+    background-color: #DD0000;
+    text-decoration: none;
+    padding: 17px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
+}
+
+#all-group-btn {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 17px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
+}
+
+#blog-btn {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 17px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
+} */
 
 /* <!-----------------
     Blog part start 
@@ -151,6 +185,10 @@ footer h2 {
 .services {
     color: #B9B9B9;
     padding: 20px 420px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
+}
+
+.services span {
+    margin-right: 15px;
 }
