@@ -245,6 +245,7 @@ footer h2 {
 
     /* Footer tablet start */
     footer {
+        width: 100%;
         padding-top: 30px;
     }
 
