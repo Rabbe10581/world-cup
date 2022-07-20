@@ -220,7 +220,40 @@ footer h2 {
         width: 100%;
         height: 100%;
     }
+
+    /* main tablet start */
+    main {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    main .main-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    main .main-body .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: 10px;
+    }
+
+    /* Footer tablet start */
+    footer {
+        padding-top: 30px;
+    }
+
+    footer .personal-links {
+        display: none;
+    }
 }
+
+
 
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
@@ -275,7 +308,7 @@ footer h2 {
         align-items: center;
     }
 
-    .grid-container {
+    main .main-body .grid-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         /* row-gap: 24px;
