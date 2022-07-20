@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -57,10 +59,6 @@ body {
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     border-radius: 10px;
     width: 240px;
@@ -69,18 +67,29 @@ body {
     margin-right: 10px;
 }
 
-.menu p a {
-    text-decoration: none;
-    background-color: #FFFFFF;
+.menu p {
+    display: block;
+    text-align: center;
+    background-color: white;
     padding: 17px 30px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 400px;
-    color: black;
+    transition: background-color 0.5s ease-in-out;
+
 }
 
-#upcoming-btn {
+.menu p:first-child {
+    margin-top: 0;
+}
+
+.menu p:hover {
     background-color: #DD0000;
+}
+
+.menu p a {
+    text-decoration: none;
+    color: black;
 }
 
 /*----------------------
@@ -136,11 +145,11 @@ body {
 footer {
     color: #FFFFFF;
     background-color: black;
-    width: 1500px;
     height: 444px;
 }
 
 footer h2 {
+    font-size: 40px;
     padding: 130px 700px 30px;
 }
 
@@ -153,4 +162,19 @@ footer h2 {
 
 .services span {
     margin-right: 15px;
+}
+
+/* Personal Link */
+.personal-links {
+    display: flex;
+    justify-content: center;
+}
+
+.personal-links span {
+    padding: 0 10px;
+}
+
+.fa-brands {
+    color: #FFFFFF;
+    font-size: 24px;
 }
