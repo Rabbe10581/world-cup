@@ -121,7 +121,7 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 24px;
+    row-gap: 40px;
     column-gap: 24px;
 }
 
@@ -190,7 +190,7 @@ main {
 footer {
     color: #FFFFFF;
     background-color: black;
-    padding-top: 130px;
+    padding-top: 50px;
 }
 
 footer h2 {
