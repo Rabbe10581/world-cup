@@ -162,6 +162,21 @@ main {
     height: 26px;
 }
 
+.view-all {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.view-all a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 12px 35px;
+    border-radius: 5px;
+    font-weight: 300;
+
+}
+
 /*--------------------
  Footer part start  
  --------------------*/
@@ -208,6 +223,12 @@ footer h2 {
 /*----------------
  Media Queries 
  ----------------*/
+@media only screen and (min-width: 993px) {
+    .view-all a {
+        display: none;
+    }
+}
+
 /* Tablet devices */
 @media only screen and (max-width: 992px) {
     header .container {
@@ -246,6 +267,10 @@ footer h2 {
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         margin: 10px;
+    }
+
+    .view-all {
+        margin-top: 30px;
     }
 
     /* Footer tablet start */
@@ -319,6 +344,10 @@ footer h2 {
         grid-template-columns: repeat(1, 1fr);
         /* row-gap: 24px;
         column-gap: 24px; */
+    }
+
+    .view-all a {
+        display: none;
     }
 
     /* Footar */
